@@ -4,45 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
     <title>Menu</title>
+
 
 </head>
 <body>
 
     <h1>Daftar Menu</h1>
-
-    <H2>Menu Favorit</H2>
-    <div class="Menu-Favorit">
-
-        <figure>
-            <img src="" alt="Kopi Gula Aren">
-            <div class="Nama-menu">Kopi Gula Aren</div>
-            <div class="Harga">Rp 21.000</div>
-        </figure>
-
-        <figure>
-            <img src="" alt="Lemonade">
-            <div class="Nama-menu">Lemonade</div>
-            <div class="Harga">Rp 22.000</div>
-        </figure>
-        <figure>
-            <img src="" alt="Coklat">
-            <div class="Nama-menu">Coklat</div>
-            <div class="Harga">Rp 18.000</div>
-        </figure>
-
-        <figure>
-            <img src="" alt="Vanila">
-            <div class="Nama-menu">Vanila Milk</div>
-            <div class="Harga">Rp 18.000</div>
-        </figure>
-
-        <figure>
-            <img src="" alt="Nasi kulit ayam">
-            <div class="Nama-menu">Nasi Kulit Ayam</div>
-            <div class="Harga">Rp 23.000</div>
-        </figure>
-    </div>
 
     <div id="Menu"></div>
     <label for="Pilihan">Menu</label>
@@ -51,114 +20,158 @@
         <option>Non Coffe</option>
         <option>Makanan</option>
     </select>
-    
-    <script>
-        const Pilihan = document.getElementById("pilihan");
-        const Menu = document.getElementById("Menu");
 
-        Pilihan.addEventListener("change", function(e){
-            Menu.innerText = `menu yang tersedia: ${e.target.value}`;
-        });
-    </script>
-
-    <h2>Coffe</h2>
-    <div>
-        <figure>
-            <img src="" alt="Lemonade">
-            <div class="Nama-menu">Lemonade</div>
-            <div class="Harga">Rp 22.000</div>
-        </figure>
+    <H2>Menu Favorit</H2>
+    <div class="Menu-Favorit">
 
         <figure>
-            <img src="" alt="Americano">
-            <div class="Nama-menu">Americano</div>
-            <div class="Harga">Rp 18.000</div>
-        </figure>
-
-        <figure>
-            <img src="" alt="Hazelnut Coffe">
-            <div class="Nama-menu">Hazelnut Coffe</div>
-            <div class="Harga">Rp 21.000</div>
-        </figure>
-
-        <figure>
-            <img src="" alt="Kopi Gula Aren">
+            <img src="https://i.pinimg.com/1200x/e1/e5/6a/e1e56ad797792c582b3ac7709dc11cc1.jpg" alt="Kopi Gula Aren">
             <div class="Nama-menu">Kopi Gula Aren</div>
             <div class="Harga">Rp 21.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Butterscoth">
+            <img src="https://i.pinimg.com/736x/85/42/96/8542968d713094dfc9afc2fe56195258.jpg" alt="Lemonade">
+            <div class="Nama-menu">Lemonade</div>
+            <div class="Harga">Rp 22.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+        <figure>
+            <img src="https://i.pinimg.com/1200x/49/d2/1b/49d21be8b47cee64b48fbe15bdab109b.jpg" alt="Coklat">
+            <div class="Nama-menu">Coklat</div>
+            <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/5d/8b/67/5d8b6707b55198d8dd37fbfe033009ef.jpg" alt="Vanila">
+            <div class="Nama-menu">Vanila Milk</div>
+            <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/4a/c9/8c/4ac98c62cc4059598ee12367e605b5a5.jpg" alt="Nasi kulit ayam">
+            <div class="Nama-menu">Nasi Kulit Ayam</div>
+            <div class="Harga">Rp 23.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+    </div>
+
+    <h2>Coffe</h2>
+    <div class="Menu-Favorit">
+        <figure>
+            <img src="https://i.pinimg.com/736x/85/42/96/8542968d713094dfc9afc2fe56195258.jpg" alt="Lemonade">
+            <div class="Nama-menu">Lemonade</div>
+            <div class="Harga">Rp 22.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/1200x/cb/48/db/cb48db04009801523739569e0f33cfc3.jpg" alt="Americano">
+            <div class="Nama-menu">Americano</div>
+            <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/1200x/11/64/c6/1164c634637104bacd00dca9cb8be163.jpg" alt="Hazelnut Coffe">
+            <div class="Nama-menu">Hazelnut Coffe</div>
+            <div class="Harga">Rp 21.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/1200x/e1/e5/6a/e1e56ad797792c582b3ac7709dc11cc1.jpg" alt="Kopi Gula Aren">
+            <div class="Nama-menu">Kopi Gula Aren</div>
+            <div class="Harga">Rp 21.000</div>
+            <p>(Belum Termasuk Pajak)</p>
+        </figure>
+
+        <figure>
+            <img src="https://i.pinimg.com/736x/78/6a/be/786abeba861d7f9dcb6b0e897d64b28a.jpg" alt="Butterscoth">
             <div class="Nama-menu">Butterscoth</div>
             <div class="Harga">Rp 21.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
     </div>
 
     <h2>Non Coffe</h2>
-    <div>
+    <div class="Menu-Favorit">
         <figure>
-            <img src="" alt="Vanila">
+            <img src="https://i.pinimg.com/736x/5d/8b/67/5d8b6707b55198d8dd37fbfe033009ef.jpg" alt="Vanila">
             <div class="Nama-menu">Vanila Milk</div>
             <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Coklat">
+            <img src="https://i.pinimg.com/1200x/49/d2/1b/49d21be8b47cee64b48fbe15bdab109b.jpg" alt="Coklat">
             <div class="Nama-menu">Coklat</div>
             <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Green Tea">
+            <img src="https://i.pinimg.com/736x/42/97/05/429705386daadeb92e6730edc9894104.jpg" alt="Green Tea">
             <div class="Nama-menu">Green Tea</div>
             <div class="Harga">Rp 22.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Thai Tea">
+            <img src="https://i.pinimg.com/1200x/ea/83/a6/ea83a6083492e99c4d0bb66550d7e4b3.jpg" alt="Thai Tea">
             <div class="Nama-menu">Thai Tea</div>
             <div class="Harga">Rp 22.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
         <figure>
-            <img src="" alt="Lemon Tea">
+            <img src="https://i.pinimg.com/736x/fd/0b/34/fd0b347a94a16150a88f9f457969cf34.jpg" alt="Lemon Tea">
             <div class="Nama-menu">Lemon Tea</div>
             <div class="Harga">Rp 16.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
     </div>
     <h2>Makanan</h2>
-    <div>
+    <div class="Menu-Favorit">
         <figure>
-            <img src="" alt="Kentang Goreng">
+            <img src="https://i.pinimg.com/736x/6e/b7/cd/6eb7cdd8e7877757354f1898211e946e.jpg" alt="Kentang Goreng">
             <div class="Nama-menu">Kentang Goreng</div>
             <div class="Harga">Rp 21.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Roti Bakar">
+            <img src="https://i.pinimg.com/1200x/f5/53/ad/f553ad39705c523987c79085074b6043.jpg" alt="Roti Bakar">
             <div class="Nama-menu">Roti Bakar Coklat</div>
             <div class="Harga">Rp 17.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Nasi Kulit Ayam">
+            <img src="https://i.pinimg.com/736x/4a/c9/8c/4ac98c62cc4059598ee12367e605b5a5.jpg" alt="Nasi Kulit Ayam">
             <div class="Nama-menu">Nasi Kulit Ayam</div>
             <div class="Harga">Rp 23.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Mix Plater">
+            <img src="https://i.pinimg.com/1200x/54/d8/d3/54d8d3373c734e7b16ededf14f2f6f80.jpg" alt="Mix Plater">
             <div class="Nama-menu">Mix Plater</div>
             <div class="Harga">Rp 18.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
         <figure>
-            <img src="" alt="Stik Pisang">
+            <img src="https://i.pinimg.com/1200x/cc/25/23/cc25236a216e164e3e0bc953af7f7baf.jpg" alt="Stik Pisang">
             <div class="Nama-menu">Stik Pisang Coklat</div>
             <div class="Harga">Rp 17.000</div>
+            <p>(Belum Termasuk Pajak)</p>
         </figure>
 
     </div>
-
+    
 </body>
 </html>
