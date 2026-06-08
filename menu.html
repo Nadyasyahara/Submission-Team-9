@@ -16,44 +16,81 @@
 
         <figure>
             <img src="" alt="Kopi Gula Aren">
+            <div class="Nama-menu">Kopi Gula Aren</div>
+            <div class="Harga">Rp 21.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Lemonade">
+            <div class="Nama-menu">Lemonade</div>
+            <div class="Harga">Rp 22.000</div>
         </figure>
         <figure>
             <img src="" alt="Coklat">
+            <div class="Nama-menu">Coklat</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Vanila">
+            <div class="Nama-menu">Vanila Milk</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Nasi kulit ayam">
+            <div class="Nama-menu">Nasi Kulit Ayam</div>
+            <div class="Harga">Rp 23.000</div>
         </figure>
     </div>
+
+    <div id="Menu"></div>
+    <label for="Pilihan">Menu</label>
+    <select name="Pilihan" id="Pilihan">
+        <option>Coffe</option>
+        <option>Non Coffe</option>
+        <option>Makanan</option>
+    </select>
+    
+    <script>
+        const Pilihan = document.getElementById("pilihan");
+        const Menu = document.getElementById("Menu");
+
+        Pilihan.addEventListener("change", function(e){
+            Menu.innerText = `menu yang tersedia: ${e.target.value}`;
+        });
+    </script>
 
     <h2>Coffe</h2>
     <div>
         <figure>
             <img src="" alt="Lemonade">
+            <div class="Nama-menu">Lemonade</div>
+            <div class="Harga">Rp 22.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Americano">
+            <div class="Nama-menu">Americano</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Hazelnut Coffe">
+            <div class="Nama-menu">Hazelnut Coffe</div>
+            <div class="Harga">Rp 21.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Kopi Gula Aren">
+            <div class="Nama-menu">Kopi Gula Aren</div>
+            <div class="Harga">Rp 21.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Butterscoth">
+            <div class="Nama-menu">Butterscoth</div>
+            <div class="Harga">Rp 21.000</div>
         </figure>
     </div>
 
@@ -61,21 +98,31 @@
     <div>
         <figure>
             <img src="" alt="Vanila">
+            <div class="Nama-menu">Vanila Milk</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Coklat">
+            <div class="Nama-menu">Coklat</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Green Tea">
+            <div class="Nama-menu">Green Tea</div>
+            <div class="Harga">Rp 22.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Thai Tea">
+            <div class="Nama-menu">Thai Tea</div>
+            <div class="Harga">Rp 22.000</div>
         </figure>
         <figure>
             <img src="" alt="Lemon Tea">
+            <div class="Nama-menu">Lemon Tea</div>
+            <div class="Harga">Rp 16.000</div>
         </figure>
 
     </div>
@@ -83,22 +130,32 @@
     <div>
         <figure>
             <img src="" alt="Kentang Goreng">
+            <div class="Nama-menu">Kentang Goreng</div>
+            <div class="Harga">Rp 21.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Roti Bakar">
+            <div class="Nama-menu">Roti Bakar Coklat</div>
+            <div class="Harga">Rp 17.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Nasi Kulit Ayam">
+            <div class="Nama-menu">Nasi Kulit Ayam</div>
+            <div class="Harga">Rp 23.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Mix Plater">
+            <div class="Nama-menu">Mix Plater</div>
+            <div class="Harga">Rp 18.000</div>
         </figure>
 
         <figure>
             <img src="" alt="Stik Pisang">
+            <div class="Nama-menu">Stik Pisang Coklat</div>
+            <div class="Harga">Rp 17.000</div>
         </figure>
 
     </div>
