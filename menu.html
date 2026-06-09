@@ -3,186 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="logo.png">
+    <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="style.css">
     <title>Menu</title>
 
 
 </head>
 <body>
+    <!-- navbar  -->
     <nav class="navbar"> 
-        <div class="logo"><img src="image\Logo.png" alt="Logo"/>Nawasena Coffee</div>
+        <div class="logo"><img src="logo.png" alt="Logo"/>Nawasena Coffee</div>
         <div class="container">
             <ul>
                 <li><a href="index.html">Beranda</a></li>
                 <li><a href="about.html">Tentang Kami</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contac.html">Contact Us</a></li>
             </ul>
         </div>
     </nav>
-    
-    <h1>Daftar Menu</h1>
+    <div class="daftar-menu">Daftar Menu</div>
 
     <div id="Menu"></div>
-    <label for="Pilihan">Menu</label>
+    <label for="Pilihan"></label>
     <select name="Pilihan" id="Pilihan">
-        <option>Coffe</option>
-        <option>Non Coffe</option>
-        <option>Makanan</option>
+        <option value="Semua">Semua Menu</option>
+        <option value="Favorit">Rekomendasi</option>
+        <option value="Coffe">Coffe</option>
+        <option value="Non Coffe">Non Coffe</option>
+        <option value="Makanan">Makanan</option>
     </select>
 
-    <H2>Menu Favorit</H2>
+<div class="Kategori-menu" data-kategori="Favorit">
+
     <div class="Menu-Favorit">
 
         <figure>
             <img src="https://i.pinimg.com/1200x/e1/e5/6a/e1e56ad797792c582b3ac7709dc11cc1.jpg" alt="Kopi Gula Aren">
             <div class="Nama-menu">Kopi Gula Aren</div>
+            <p>Perpaduan espresso dan manis gula aren yang menghasilkan cita rasa kopi khas Indonesia.</p>
             <div class="Harga">Rp 21.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/85/42/96/8542968d713094dfc9afc2fe56195258.jpg" alt="Lemonade">
             <div class="Nama-menu">Lemonade</div>
+            <p>Minuman segar dengan perpaduan rasa lemon yang sangat menyegarkan ditengerokan.</p>
             <div class="Harga">Rp 22.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
         <figure>
             <img src="https://i.pinimg.com/1200x/49/d2/1b/49d21be8b47cee64b48fbe15bdab109b.jpg" alt="Coklat">
             <div class="Nama-menu">Coklat</div>
+            <p>Minuman coklat yang kaya rasa dengan perpaduan manis dan creamy yang nikmat.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/5d/8b/67/5d8b6707b55198d8dd37fbfe033009ef.jpg" alt="Vanila">
             <div class="Nama-menu">Vanila Milk</div>
+            <p>Minuman susu dengan rasa vanila yang lembut dan manis, cocok untuk semua usia.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/4a/c9/8c/4ac98c62cc4059598ee12367e605b5a5.jpg" alt="Nasi kulit ayam">
             <div class="Nama-menu">Nasi Kulit Ayam</div>
+            <p>Nasi yang disajikan dengan kulit ayam goreng renyah dan bumbu gurih yang menggugah selera.</p>
             <div class="Harga">Rp 23.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
     </div>
+    </div>
 
-    <h2>Coffe</h2>
-    <div class="Menu-Favorit">
+    <div class="Kategori-menu" data-kategori="Coffe">
+
+    <div class="Coffe">
         <figure>
             <img src="https://i.pinimg.com/736x/85/42/96/8542968d713094dfc9afc2fe56195258.jpg" alt="Lemonade">
             <div class="Nama-menu">Lemonade</div>
+            <p>Minuman segar dengan perpaduan rasa lemon yang sangat menyegarkan ditengerokan.</p>
             <div class="Harga">Rp 22.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/cb/48/db/cb48db04009801523739569e0f33cfc3.jpg" alt="Americano">
             <div class="Nama-menu">Americano</div>
+            <p>Espresso yang dicampur dengan air panas, menghasilkan rasa kopi yang segar dan aromatik.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/11/64/c6/1164c634637104bacd00dca9cb8be163.jpg" alt="Hazelnut Coffe">
             <div class="Nama-menu">Hazelnut Coffe</div>
+            <p>Kopi dengan sentuhan rasa hazelnut yang lembut dan aroma kacang yang khas.</p>
             <div class="Harga">Rp 21.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/e1/e5/6a/e1e56ad797792c582b3ac7709dc11cc1.jpg" alt="Kopi Gula Aren">
             <div class="Nama-menu">Kopi Gula Aren</div>
+            <p>Perpaduan espresso dan manis gula aren yang menghasilkan cita rasa kopi khas Indonesia.</p>
             <div class="Harga">Rp 21.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/78/6a/be/786abeba861d7f9dcb6b0e897d64b28a.jpg" alt="Butterscoth">
             <div class="Nama-menu">Butterscoth</div>
+            <p>Kopi dengan perpaduan rasa karamel dan mentega yang manis serta creamy yang lembut.</p>
             <div class="Harga">Rp 21.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
     </div>
+    </div>
 
-    <h2>Non Coffe</h2>
-    <div class="Menu-Favorit">
+    <div class="Kategori-menu" data-kategori="Non Coffe">
+
+    <div class="Non-coffe">
         <figure>
             <img src="https://i.pinimg.com/736x/5d/8b/67/5d8b6707b55198d8dd37fbfe033009ef.jpg" alt="Vanila">
             <div class="Nama-menu">Vanila Milk</div>
+            <p>Minuman susu dengan rasa vanila yang lembut dan manis, cocok untuk semua usia.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/49/d2/1b/49d21be8b47cee64b48fbe15bdab109b.jpg" alt="Coklat">
             <div class="Nama-menu">Coklat</div>
+            <p>Minuman coklat yang kaya rasa dengan perpaduan manis dan creamy yang nikmat.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/42/97/05/429705386daadeb92e6730edc9894104.jpg" alt="Green Tea">
             <div class="Nama-menu">Green Tea</div>
+            <p>Minuman teh hijau dengan cita rasa khas yang sangat lembut dan juga menyegarkan.</p>
             <div class="Harga">Rp 22.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/ea/83/a6/ea83a6083492e99c4d0bb66550d7e4b3.jpg" alt="Thai Tea">
             <div class="Nama-menu">Thai Tea</div>
+            <p>Minuman teh khas Thailand dengan rasa manis, creamy, dan aroma rempah yang khas.</p>
             <div class="Harga">Rp 22.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
         <figure>
             <img src="https://i.pinimg.com/736x/fd/0b/34/fd0b347a94a16150a88f9f457969cf34.jpg" alt="Lemon Tea">
             <div class="Nama-menu">Lemon Tea</div>
+            <p>Perpaduan teh dan lemon yang memberikan sensasi segar serta sedikit rasa asam.</p>
             <div class="Harga">Rp 16.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
-
     </div>
-    <h2>Makanan</h2>
-    <div class="Menu-Favorit">
+    </div>
+
+    <div class="Kategori-menu" data-kategori="Makanan">
+
+    <div class="Makanan">
         <figure>
             <img src="https://i.pinimg.com/736x/6e/b7/cd/6eb7cdd8e7877757354f1898211e946e.jpg" alt="Kentang Goreng">
             <div class="Nama-menu">Kentang Goreng</div>
+            <p>Kentang pilihan yang digoreng hingga keemasan, renyah di luar dan lembut di dalam.</p>
             <div class="Harga">Rp 21.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/f5/53/ad/f553ad39705c523987c79085074b6043.jpg" alt="Roti Bakar">
             <div class="Nama-menu">Roti Bakar Coklat</div>
+            <p>Roti panggang dengan isian cokelat yang lumer dan aroma harum yang menggugah selera</p>
             <div class="Harga">Rp 17.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/736x/4a/c9/8c/4ac98c62cc4059598ee12367e605b5a5.jpg" alt="Nasi Kulit Ayam">
             <div class="Nama-menu">Nasi Kulit Ayam</div>
+            <p>Nasi hangat yang disajikan dengan kulit ayam goreng renyah dan bumbu gurih yang menggugah selera.</p>
             <div class="Harga">Rp 23.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/54/d8/d3/54d8d3373c734e7b16ededf14f2f6f80.jpg" alt="Mix Plater">
             <div class="Nama-menu">Mix Plater</div>
+            <p>Kombinasi berbagai camilan favorit dalam satu porsi, cocok untuk dinikmati bersama teman atau keluarga.</p>
             <div class="Harga">Rp 18.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
 
         <figure>
             <img src="https://i.pinimg.com/1200x/cc/25/23/cc25236a216e164e3e0bc953af7f7baf.jpg" alt="Stik Pisang">
             <div class="Nama-menu">Stik Pisang Coklat</div>
+            <p>Potongan pisang yang digoreng renyah dan disajikan dengan taburan cokelat manis yang lezat.</p>
             <div class="Harga">Rp 17.000</div>
-            <p>(Belum Termasuk Pajak)</p>
+            <i>(Belum Termasuk Pajak)</i>
         </figure>
-
     </div>
-    
+    </div>
+
+    <!-- footer -->
+    <footer class="footer"> 
+        <div class="diatur">
+            <div class="Deskripsi">
+            <h2>Nawasena Coffe</h2>
+            <p>Nikmati suasana yang nyaman dan berbagai pilihan makanan dan minuman lezat yang siap menemani setiap momen dalam harimu.</p>
+            </div>
+            <div class="navigasi">
+            <h3>Tautan Cepat</h3>
+            <ul>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="about.html">Tentang kami</a></li>
+                <li><a href="contac.html">contacs</a></li>
+            </ul>
+            </div>
+            <div class="Kontak">
+                <h3>Kontak</h3>
+                <p>Ikhtiar M</p>
+                <p>Nadya</p>
+                <br>
+                <p>+62 123 4567 890</p>
+            </div>
+        </div>
+        <hr>
+        <h4>&copy; 2026 Nawasena Coffe. Seluru Hak Dilindungi.</h4>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
