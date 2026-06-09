@@ -1,9 +1,165 @@
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    background-color: #c58a5c;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.container ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container ul li a:hover{
+    border-bottom: 2px solid #c58a5c;
+}
+
+/* Beranda */
+#home{
+    height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ),
+        url("image\\background beranda.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beranda{
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.beranda h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #c58a5c;
+}
+
+.beranda p{
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.beranda a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c58a5c;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.beranda a:hover{
+    background-color: #a86f44;
+}
+
+
+/* About */
+.tentang-kami{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.tentang-kami h1{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.tentang-kami p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.judul-about{
+    text-align: center;
+    margin: 50px 0 40px;
+    color: #c58a5c;
+}
+.about-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-container figure{
+    width: 300px;
+    margin: 10px;
+    border: 1px ;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.about-container figure p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* menu */
 figure {
     width: 300px;
     margin: 10px;
     border: 1px ;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff;
 }
 figure img {
     width: 100%;
@@ -26,7 +182,7 @@ figure img {
 }
 .Menu-Favorit {
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 p {
     font-style: italic;
