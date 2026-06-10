@@ -29,7 +29,7 @@
 }
 
 .logo img{
-    width: 50px;
+    width: 85px;
 }
 
 .container ul{
@@ -391,21 +391,140 @@ body{
     background-color: #6d4c41;
 }
 
-/* Responsive */
-@media(max-width:768px){
+@media (max-width: 768px){
 
     .navbar{
         flex-direction: column;
-        gap: 15px;
+        height: auto;
+        padding: 15px;
     }
 
-    .navbar ul{
+    .logo{
+        font-size: 22px;
+    }
+
+    .logo img{
+        width: 65px;
+    }
+
+    .container ul{
+        gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
+    .beranda h1{
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .beranda p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .tentang-kami h1,
+    .daftar-menu,
     .contact h1{
-        font-size: 30px;
+        font-size: 38px;
+    }
+
+    .judul-about{
+        font-size: 32px;
+    }
+
+    .footer{
+        padding: 40px;
     }
 }
 
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+@media (max-width: 600px){
+
+    .navbar{
+        gap: 10px;
+    }
+
+    .container ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo{
+        font-size: 20px;
+    }
+
+    .logo img{
+        width: 55px;
+    }
+
+    .beranda{
+        text-align: center;
+    }
+
+    .beranda h1{
+        font-size: 32px;
+    }
+
+    .beranda p{
+        font-size: 18px;
+    }
+
+    .penjelasan{
+        margin: 20px;
+        font-size: 16px;
+    }
+
+    .tentang-kami h1,
+    .daftar-menu,
+    .contact h1{
+        font-size: 30px;
+    }
+
+    .judul-about{
+        font-size: 26px;
+    }
+
+    figure{
+        width: 100%;
+        max-width: 320px;
+        margin: 10px auto;
+    }
+
+    figure img{
+        height: 220px;
+    }
+
+    .Menu-Favorit,
+    .Coffe,
+    .Makanan,
+    .Non-coffe,
+    .about-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Pilihan{
+        width: 90%;
+        max-width: 300px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .footer{
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .diatur{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .diatur h2,
+    .diatur h3{
+        font-size: 24px;
+    }
+}
