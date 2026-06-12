@@ -122,7 +122,7 @@
 .tentang-kami h1{
     text-align: center;
     margin-bottom: 15px;
-    font-size: 50px;
+    font-size: 40px;
     color:#4e342e;
     margin-top: 60px;
 }
@@ -136,7 +136,6 @@
 
 .teks-tentang{
     flex: 1;
-    
     margin-top: 50px;
 }
 
@@ -163,6 +162,7 @@
     color: #4e342e;
     font-size: 40px;
 }
+
 .about-container{
     display: flex;
     flex-wrap: wrap;
@@ -266,7 +266,7 @@ figure p {
     margin-bottom: 20px;
 }
 .daftar-menu {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     color: #4e342e;
@@ -398,7 +398,7 @@ body{
 
 .contact h1{
     color: #4e342e;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -480,9 +480,24 @@ body{
 
     .menu-toggle{
         display:block;
-        color:white;
-        font-size:35px;
+        color: #F9F2EB;
+        font-size: 30px;
         cursor:pointer;
+    }
+
+    .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size:20px;
+    font-weight: 600;
+    color: #F9F2EB;
+    
+    }
+
+    .logo img{
+        width: 50px;
+        height: 50px;
     }
 
     .container{
@@ -505,7 +520,7 @@ body{
         position:absolute;
         top:20px;
         right:30px;
-        font-size:40px;
+        font-size:30px;
         color:#4e342e;
         cursor:pointer;
     }
@@ -521,7 +536,62 @@ body{
 
     .container ul li a{
         color:#4e342e;
-        font-size:28px;
+        font-size:20px;
     }
+
+    .isi-tentang{
+        flex-direction: column-reverse;
+    }
+
+    .teks-tentang p{
+        margin-left: 10px;
+    }
+
+    .isi-tentang img{
+        margin: 0;
+        margin-left: 85px;
+        width: 200px;
+        margin-bottom: -150px;
+    }
+
+    .contact h1, .tentang-kami h1, .judul-about, .daftar-menu, {
+        font-size: 30px;
+    }
+
+    .beranda h1 {
+        font-size: 40px;
+    }
+    .beranda p {
+        font-size: 20px;
+    }
+
+    .garis {
+    width: 75px;
+    height: 4px;
+    }
+
+    .keterangan , .subtitle {
+        font-size: 18px;
+    }
+
+    .diatur h2, .diatur h3 {
+        font-size: 20px;
+    }
+
+    .diatur p, .diatur li, .copy {
+        font-size: 16px;
+    }
+
+    .contac h2 {
+        font-size: 20px;
+    }
+    #Pilihan {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    
+
 }
 
